@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Closet - Tu Guardarropa Virtual Inteligente</title>
+  <!-- Google Fonts: Outfit (macOS style clean typography) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons for macOS-like system icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="mac-app-container">
+    
+    <!-- BARRA LATERAL (ESTILO FINDER / MACOS SIDEBAR) -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="window-controls">
+          <span class="control close"></span>
+          <span class="control minimize"></span>
+          <span class="control maximize"></span>
+        </div>
+        <div class="brand-title">
+          <div class="brand-logo">
+            <i data-lucide="sparkles"></i>
+          </div>
+          <h2>Aura Closet</h2>
+        </div>
+      </div>
+      
+      <nav class="sidebar-nav">
+        <div class="nav-group-title">Navegación</div>
+        <a href="#dashboard" class="nav-item active" data-panel="dashboard">
+          <i data-lucide="layout-dashboard"></i>
+          <span>Dashboard</span>
+        </a>
+        <a href="#closet" class="nav-item" data-panel="closet">
+          <i data-lucide="shirt"></i>
+          <span>Mi Clóset</span>
+        </a>
+        <a href="#add-item" class="nav-item" data-panel="add-item">
+          <i data-lucide="plus-circle"></i>
+          <span>Añadir Prenda</span>
+        </a>
+        <a href="#assistant" class="nav-item" data-panel="assistant">
+          <i data-lucide="sparkles"></i>
+          <span>Asistente de Outfits</span>
+        </a>
+      </nav>
+      
+      <div class="sidebar-footer">
+        <div class="user-profile">
+          <div class="avatar">JG</div>
+          <div class="user-info">
+            <span class="user-name">Javi Gonzalez</span>
+            <span class="user-status">Clóset Premium</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ÁREA DE CONTENIDO PRINCIPAL -->
+    <main class="main-content">
+      
+      <!-- ================= PANEL: DASHBOARD ================= -->
+      <section id="panel-dashboard" class="content-panel active">
+        <header class="panel-header">
+          <div>
+            <h1>Hola, Javi</h1>
+            <p class="subtitle">Este es el estado actual de tu guardarropa virtual.</p>
+          </div>
+          <div class="header-actions">
+            <span class="date-badge" id="current-date">Sábado, 13 de Junio</span>
+          </div>
+        </header>
+
+        <!-- Tarjetas de Estadísticas (Stats Widgets) -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon purple">
+              <i data-lucide="shirt"></i>
+            </div>
+            <div class="stat-data">
+              <span class="stat-value" id="stat-total-items">0</span>
+              <span class="stat-label">Prendas Totales</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon green">
+              <i data-lucide="droplet"></i>
+            </div>
+            <div class="stat-data">
+              <span class="stat-value" id="stat-clean-items">0</span>
+              <span class="stat-label">Prendas Limpias</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon orange">
+              <i data-lucide="flame-kindling"></i>
+            </div>
+            <div class="stat-data">
+              <span class="stat-value" id="stat-dirty-items">0</span>
+              <span class="stat-label">En Lavadora</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon blue">
+              <i data-lucide="dollar-sign"></i>
+            </div>
+            <div class="stat-data">
+              <span class="stat-value" id="stat-closet-value">$0.00</span>
+              <span class="stat-label">Valor del Clóset</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-details-grid">
+          <!-- Calendario Planificador Semanal -->
+          <div class="details-card calendar-section">
+            <div class="card-header">
+              <h3><i data-lucide="calendar"></i> Planificador Semanal de Outfits</h3>
+              <p>Organiza tus outfits recomendados para cada día</p>
+            </div>
+            <div class="weekly-calendar">
+              <!-- Los días se renderizarán dinámicamente con JS -->
+              <div class="calendar-days-container" id="calendar-days">
+                <!-- Días del Lunes al Domingo -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Distribución de Marcas y Categorías -->
+          <div class="details-card stats-visuals">
+            <div class="card-header">
+              <h3><i data-lucide="pie-chart"></i> Marcas y Categorías</h3>
+              <p>Tus preferencias en el clóset</p>
+            </div>
+            <div class="brand-list-card">
+              <h4>Marcas Favoritas</h4>
+              <ul class="brand-list" id="top-brands-list">
+                <li class="empty-state-text">No hay suficientes prendas agregadas.</li>
+              </ul>
+            </div>
+            <div class="category-distribution-card">
+              <h4>Distribución por Tipo</h4>
+              <div class="category-bars" id="category-bars-list">
+                <div class="empty-state-text">Sin datos disponibles.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PANEL: MI CLÓSET ================= -->
+      <section id="panel-closet" class="content-panel">
+        <header class="panel-header">
+          <div>
+            <h1>Mi Clóset Virtual</h1>
+            <p class="subtitle">Explora y gestiona tus prendas guardadas.</p>
+          </div>
+          <div class="header-actions">
+            <button class="btn btn-primary btn-mac" id="btn-quick-add">
+              <i data-lucide="plus"></i> Nueva Prenda
+            </button>
+          </div>
+        </header>
+
+        <!-- Barra de filtros estilo macOS -->
+        <div class="filter-bar">
+          <div class="search-input-wrapper">
+            <i data-lucide="search" class="search-icon"></i>
+            <input type="text" id="closet-search" placeholder="Buscar prenda, marca o color...">
+          </div>
+          <div class="filter-group">
+            <label for="closet-filter-status">Estado:</label>
+            <select id="closet-filter-status" class="mac-select">
+              <option value="all">Todos</option>
+              <option value="clean">Limpio</option>
+              <option value="dirty">En Lavadora</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Botones de categoría -->
+        <div class="category-pills">
+          <button class="pill active" data-category="all">Todos</button>
+          <button class="pill" data-category="tops"><i data-lucide="shirt"></i> Tops</button>
+          <button class="pill" data-category="bottoms"><i data-lucide="pocket"></i> Bottoms</button>
+          <button class="pill" data-category="jackets"><i data-lucide="wind"></i> Abrigos</button>
+          <button class="pill" data-category="shoes"><i data-lucide="footprints"></i> Zapatos</button>
+          <button class="pill" data-category="accessories"><i data-lucide="gem"></i> Accesorios</button>
+        </div>
+
+        <!-- Grid de prendas -->
+        <div class="garment-grid" id="garment-grid-container">
+          <!-- Carga dinámica con JS -->
+          <div class="empty-state-closet">
+            <i data-lucide="package-open" class="empty-icon"></i>
+            <h3>Tu clóset está vacío</h3>
+            <p>Comienza a escanear tus etiquetas o añadir enlaces para rellenarlo.</p>
+            <button class="btn btn-secondary" onclick="window.location.hash='#add-item'; document.querySelector('[data-panel=add-item]').click();">Añadir primera prenda</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PANEL: AÑADIR PRENDA ================= -->
+      <section id="panel-add-item" class="content-panel">
+        <header class="panel-header">
+          <div>
+            <h1>Añadir Nueva Prenda</h1>
+            <p class="subtitle">Elige el método de escaneo para importar tu ropa automáticamente.</p>
+          </div>
+        </header>
+
+        <div class="add-methods-tabs">
+          <button class="tab-btn active" id="tab-scan"><i data-lucide="scan"></i> Escanear Etiqueta</button>
+          <button class="tab-btn" id="tab-url"><i data-lucide="link"></i> Importar por Enlace de Tienda</button>
+          <button class="tab-btn" id="tab-manual"><i data-lucide="edit-3"></i> Registro Manual</button>
+        </div>
+
+        <div class="add-content-container">
+          
+          <!-- TAB 1: ESCANEAR ETIQUETA -->
+          <div class="tab-content active" id="content-scan">
+            <div class="scanner-layout">
+              <div class="scanner-camera-box">
+                <div class="camera-preview-wrapper">
+                  <video id="webcam-video" autoplay playsinline muted class="hidden"></video>
+                  <img id="tag-preview-img" class="hidden" alt="Vista previa de etiqueta">
+                  
+                  <div class="camera-placeholder" id="camera-placeholder">
+                    <i data-lucide="camera" class="placeholder-icon"></i>
+                    <p>Usa la cámara de tu dispositivo o sube una foto de la etiqueta del producto</p>
+                    <div class="camera-placeholder-actions">
+                      <button class="btn btn-primary" id="btn-activate-camera"><i data-lucide="video"></i> Activar Cámara</button>
+                      <label class="btn btn-secondary cursor-pointer">
+                        <i data-lucide="upload"></i> Subir Foto
+                        <input type="file" id="file-tag-upload" accept="image/*" class="hidden">
+                      </label>
+                    </div>
+                  </div>
+                  
+                  <!-- Efecto de línea de escaneo tecnológico -->
+                  <div class="scanner-overlay hidden" id="scanner-overlay">
+                    <div class="scan-line"></div>
+                    <span class="scan-text">Procesando etiqueta por IA...</span>
+                  </div>
+                </div>
+                
+                <div class="camera-controls hidden" id="camera-controls">
+                  <button class="btn btn-capture" id="btn-capture-tag"><i data-lucide="circle-dot"></i> Escanear Etiqueta</button>
+                  <button class="btn btn-danger" id="btn-cancel-camera">Cancelar</button>
+                </div>
+              </div>
+
+              <div class="scanner-results-box">
+                <div class="results-header">
+                  <h3><i data-lucide="terminal"></i> Registro OCR / Lectura de Etiqueta</h3>
+                  <span class="status-indicator waiting" id="ocr-status">Esperando escaneo...</span>
+                </div>
+                <div class="ocr-terminal" id="ocr-terminal-text">
+                  // Los datos brutos del escaneo de la etiqueta aparecerán aquí tras procesar la imagen...
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: IMPORTAR POR ENLACE DE TIENDA -->
+          <div class="tab-content" id="content-url">
+            <div class="url-import-box">
+              <div class="input-action-row">
+                <div class="input-with-icon-lg">
+                  <i data-lucide="link-2"></i>
+                  <input type="url" id="product-url-input" placeholder="Pega el enlace del producto (ej: Zara, H&M, Nike, Adidas...)">
+                </div>
+                <button class="btn btn-primary btn-lg" id="btn-scrape-url">Buscar Prenda</button>
+              </div>
+              <p class="help-text">Nuestra IA extraerá la imagen oficial, el precio, el color y la marca directamente de la página web de la tienda.</p>
+              
+              <!-- Loader de escaneo/búsqueda -->
+              <div class="scrape-loader hidden" id="scrape-loader">
+                <div class="spinner"></div>
+                <p>Extrayendo metadatos de la tienda y foto oficial...</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 3: REGISTRO MANUAL -->
+          <div class="tab-content" id="content-manual">
+            <div class="manual-intro">
+              <p>Rellena los campos a continuación para registrar tu prenda directamente sin escanear.</p>
+            </div>
+          </div>
+
+          <!-- ================= FORMULARIO COMÚN DE CONFIRMACIÓN DE PRENDA ================= -->
+          <div class="garment-confirmation-box hidden" id="garment-confirmation-form">
+            <h3><i data-lucide="check-circle-2"></i> Confirmar Detalles de la Prenda</h3>
+            <hr class="form-divider">
+            
+            <div class="confirmation-layout">
+              <div class="preview-photo-section">
+                <div class="garment-image-frame">
+                  <img id="confirmed-image-preview" src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600" alt="Prenda">
+                  <label class="change-photo-badge">
+                    <i data-lucide="camera"></i> Cambiar Foto
+                    <input type="file" id="file-garment-upload" accept="image/*" class="hidden">
+                  </label>
+                </div>
+                <p class="image-tip">Esta foto es la que verás en tu clóset virtual. Puedes subir una foto de la prenda completa.</p>
+              </div>
+
+              <div class="form-fields-section">
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="conf-name">Nombre de la Prenda *</label>
+                    <input type="text" id="conf-name" required placeholder="Ej. Camiseta Básica Slim Fit">
+                  </div>
+                  <div class="form-group">
+                    <label for="conf-brand">Marca</label>
+                    <input type="text" id="conf-brand" placeholder="Ej. Zara, H&M">
+                  </div>
+                  <div class="form-group">
+                    <label for="conf-store">Lugar de Compra (Tienda) *</label>
+                    <input type="text" id="conf-store" required placeholder="Ej. Zara Gran Vía, H&M Online">
+                  </div>
+                  <div class="form-group">
+                    <label for="conf-category">Categoría *</label>
+                    <select id="conf-category" required class="mac-select">
+                      <option value="tops">Tops (Camisetas, Camisas, Sudaderas)</option>
+                      <option value="bottoms">Bottoms (Pantalones, Jeans, Bermudas, Faldas)</option>
+                      <option value="jackets">Abrigos (Chaquetas, Abrigos, Blazers)</option>
+                      <option value="shoes">Zapatos (Deportivas, Botas, Zapatos)</option>
+                      <option value="accessories">Accesorios (Gorras, Bolsos, Cinturones)</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="conf-color">Color Predominante</label>
+                    <input type="text" id="conf-color" placeholder="Ej. Azul Marino, Negro">
+                  </div>
+                  <div class="form-group">
+                    <label for="conf-price">Precio (€/$)</label>
+                    <input type="number" step="0.01" id="conf-price" placeholder="Ej. 29.99">
+                  </div>
+                </div>
+                
+                <input type="hidden" id="conf-image-url">
+                <input type="hidden" id="conf-purchase-url">
+
+                <div class="form-actions">
+                  <button class="btn btn-secondary btn-lg" id="btn-reset-form">Descartar</button>
+                  <button class="btn btn-primary btn-lg" id="btn-save-garment">
+                    <i data-lucide="check"></i> Guardar en mi Clóset
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================= PANEL: ASISTENTE DE OUTFITS ================= -->
+      <section id="panel-assistant" class="content-panel">
+        <header class="panel-header">
+          <div>
+            <h1>Asistente de Outfits por IA</h1>
+            <p class="subtitle">Dile a Aura tu evento o qué tienes en mente y diseñará el outfit perfecto de tu clóset.</p>
+          </div>
+          <div class="header-actions">
+            <!-- Modal/Input de API Key de Gemini -->
+            <button class="btn btn-secondary btn-mac" id="btn-gemini-key">
+              <i data-lucide="key"></i> Configurar Gemini Key
+            </button>
+          </div>
+        </header>
+
+        <div class="assistant-layout">
+          <!-- Lado Izquierdo: Chat con Aura -->
+          <div class="chat-container">
+            <div class="chat-header">
+              <div class="assistant-avatar">
+                <i data-lucide="sparkles"></i>
+              </div>
+              <div class="assistant-info">
+                <h3>Aura</h3>
+                <span>Asistente de Estilo Personal</span>
+              </div>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages-container">
+              <div class="message assistant">
+                <p>¡Hola! Soy Aura, tu estilista personal. Veo que tienes acceso a las prendas de tu clóset virtual. Dime, ¿para qué ocasión u evento quieres vestirte hoy? O si tienes una combinación en mente, dímelo y la complementaré.</p>
+              </div>
+            </div>
+
+            <!-- Sugerencias rápidas -->
+            <div class="quick-prompts">
+              <button class="quick-prompt-btn">Outfit para cena formal</button>
+              <button class="quick-prompt-btn">Estilo deportivo para correr</button>
+              <button class="quick-prompt-btn">Look casual de fin de semana</button>
+              <button class="quick-prompt-btn">¿Qué me pongo un día de lluvia?</button>
+            </div>
+
+            <!-- Entrada de chat -->
+            <div class="chat-input-area">
+              <input type="text" id="assistant-input" placeholder="Pregúntale a Aura sobre un outfit o evento...">
+              <button class="btn-send" id="btn-send-message">
+                <i data-lucide="send"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Lado Derecho: Outfit Recomendado -->
+          <div class="outfit-recommendation-box" id="outfit-recommendation-container">
+            <div class="empty-recommendation" id="empty-recommendation-view">
+              <i data-lucide="sparkles" class="pulsing-icon"></i>
+              <h3>Tu outfit recomendado aparecerá aquí</h3>
+              <p>Describe tu evento en el chat para que Aura comience a combinar tus prendas limpias.</p>
+            </div>
+            
+            <div class="recommendation-content hidden" id="recommendation-content-view">
+              <div class="recommendation-header">
+                <h3><i data-lucide="check-square"></i> Outfit Sugerido</h3>
+                <span class="badge-style" id="outfit-style-badge">Casual</span>
+              </div>
+              
+              <!-- Galería del outfit sugerido -->
+              <div class="outfit-collage" id="outfit-collage-grid">
+                <!-- Prendas recomendadas dinámicamente -->
+              </div>
+
+              <!-- Lógica de Guardado en Calendario -->
+              <div class="outfit-save-section">
+                <h4>Planificar Outfit</h4>
+                <p>¿Quieres reservar este outfit para algún día de la semana?</p>
+                <div class="calendar-save-row">
+                  <select id="select-calendar-day" class="mac-select">
+                    <option value="lunes">Lunes</option>
+                    <option value="martes">Martes</option>
+                    <option value="miércoles">Miércoles</option>
+                    <option value="jueves">Jueves</option>
+                    <option value="viernes">Viernes</option>
+                    <option value="sábado">Sábado</option>
+                    <option value="domingo">Domingo</option>
+                  </select>
+                  <button class="btn btn-primary" id="btn-save-to-calendar">Asignar al Calendario</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- MODAL: CONFIGURACIÓN GEMINI API KEY -->
+  <div class="mac-modal-backdrop hidden" id="modal-gemini-key">
+    <div class="mac-modal-window">
+      <div class="modal-header">
+        <h3><i data-lucide="key"></i> Configurar API Key de Gemini</h3>
+        <button class="btn-close-modal" id="btn-close-gemini-modal"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        <p>Introduce tu clave de API de Google Gemini para habilitar el asistente de estilo ultra inteligente. Esto le permitirá analizar estilísticamente texturas, colores y tendencias.</p>
+        <p class="warning-text"><i data-lucide="shield-alert"></i> Tu clave se guardará localmente en tu navegador de forma segura y nunca se compartirá.</p>
+        <div class="form-group margin-top-lg">
+          <label for="gemini-key-input">Gemini API Key</label>
+          <input type="password" id="gemini-key-input" placeholder="AIzaSy...">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="btn-clear-gemini-key">Eliminar Clave</button>
+        <button class="btn btn-primary" id="btn-save-gemini-key">Guardar Configuración</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

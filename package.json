@@ -1,0 +1,33 @@
+{
+  "name": "virtual-closet",
+  "version": "1.0.0",
+  "description": "Aplicación de Closet Virtual con escáner de etiquetas, buscador/scraper y asistente de outfits",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev:server": "node server.js",
+    "dev:client": "vite",
+    "build": "vite build",
+    "dev": "concurrently -k -p \"[{name}]\" -n \"Server,Client\" -c \"yellow,blue\" \"node server.js\" \"vite\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "playwright": "^1.61.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^8.2.2",
+    "vite": "^5.3.1"
+  }
+}

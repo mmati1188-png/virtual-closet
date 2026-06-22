@@ -1,0 +1,3338 @@
+[
+  {
+    "name": "Zapatillas Samba OG",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Adidas",
+    "store": "Adidas",
+    "priceCLP": 94990,
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.adidas.cl/zapatillas-samba-og/B75806.html",
+    "color": "Blanco",
+    "season": [
+      "primavera",
+      "verano",
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "casual",
+      "trendy",
+      "minimalist"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 8,
+    "temperatureMax": 30,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual",
+      "trendy"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "id": "real-1"
+  },
+  {
+    "name": "Zapatillas Gazelle Bold",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Adidas",
+    "store": "Adidas",
+    "priceCLP": 109990,
+    "imageUrl": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.adidas.cl/zapatillas-gazelle-bold/HQ6893.html",
+    "color": "Negro",
+    "season": [
+      "primavera",
+      "verano",
+      "otoño"
+    ],
+    "style": [
+      "casual",
+      "trendy"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual",
+      "night out"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-2"
+  },
+  {
+    "name": "Polera Deportiva Train Essentials",
+    "category": "sportswear",
+    "subcategory": "Polera",
+    "brand": "Adidas",
+    "store": "Adidas",
+    "priceCLP": 24990,
+    "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.adidas.cl/polera-deportiva-train-essentials-3-tiras/HR8456.html",
+    "color": "Azul",
+    "season": [
+      "verano",
+      "primavera"
+    ],
+    "style": [
+      "sporty"
+    ],
+    "formalityLevel": 1,
+    "temperatureMin": 15,
+    "temperatureMax": 35,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-3"
+  },
+  {
+    "name": "Calzas Deportivas Optime Training",
+    "category": "sportswear",
+    "subcategory": "Calzas",
+    "brand": "Adidas",
+    "store": "Adidas",
+    "priceCLP": 42990,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.adidas.cl/calzas-7-8-optime-training/HS6872.html",
+    "color": "Negro",
+    "season": [
+      "otoño",
+      "invierno",
+      "primavera"
+    ],
+    "style": [
+      "sporty"
+    ],
+    "formalityLevel": 1,
+    "temperatureMin": 5,
+    "temperatureMax": 22,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-4"
+  },
+  {
+    "name": "Sudadera Adicolor Essentials",
+    "category": "tops",
+    "subcategory": "Polerón",
+    "brand": "Adidas",
+    "store": "Adidas",
+    "priceCLP": 52990,
+    "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.adidas.cl/poleron-con-capucha-adicolor-essentials/H06619.html",
+    "color": "Gris",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "casual",
+      "sporty"
+    ],
+    "formalityLevel": 1,
+    "temperatureMin": 2,
+    "temperatureMax": 16,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-5"
+  },
+  {
+    "name": "Zapatillas Speedcat OG",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Puma",
+    "store": "Puma",
+    "priceCLP": 79990,
+    "imageUrl": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://cl.puma.com/zapatillas-speedcat-og-398846-01.html",
+    "color": "Rojo",
+    "season": [
+      "primavera",
+      "verano",
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "casual",
+      "trendy"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 8,
+    "temperatureMax": 32,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "trendy",
+      "night out"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "id": "real-6"
+  },
+  {
+    "name": "Zapatillas Suede XL",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Puma",
+    "store": "Puma",
+    "priceCLP": 84990,
+    "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://cl.puma.com/zapatillas-suede-xl-395205-02.html",
+    "color": "Azul Marino",
+    "season": [
+      "otoño",
+      "invierno",
+      "primavera"
+    ],
+    "style": [
+      "casual",
+      "streetwear"
+    ],
+    "formalityLevel": 1,
+    "temperatureMin": 5,
+    "temperatureMax": 25,
+    "rainFriendly": true,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-7"
+  },
+  {
+    "name": "Polera Running Favorite",
+    "category": "sportswear",
+    "subcategory": "Polera",
+    "brand": "Puma",
+    "store": "Puma",
+    "priceCLP": 19990,
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://cl.puma.com/polera-running-favorite-520181-01.html",
+    "color": "Blanco",
+    "season": [
+      "verano",
+      "primavera"
+    ],
+    "style": [
+      "sporty"
+    ],
+    "formalityLevel": 1,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-8"
+  },
+  {
+    "name": "Chaqueta Cortavientos Run",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Puma",
+    "store": "Puma",
+    "priceCLP": 49990,
+    "imageUrl": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://cl.puma.com/chaqueta-cortavientos-run-520119-01.html",
+    "color": "Negro",
+    "season": [
+      "otoño",
+      "invierno",
+      "primavera"
+    ],
+    "style": [
+      "sporty"
+    ],
+    "formalityLevel": 1,
+    "temperatureMin": 4,
+    "temperatureMax": 18,
+    "rainFriendly": true,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-9"
+  },
+  {
+    "name": "Blazer Sastrero Clásico",
+    "category": "jackets",
+    "subcategory": "Blazer",
+    "brand": "Zara",
+    "store": "Zara",
+    "priceCLP": 49990,
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.zara.com/cl/es/blazer-sastrero-clasico-p02761245.html",
+    "color": "Negro",
+    "season": [
+      "otoño",
+      "invierno",
+      "primavera"
+    ],
+    "style": [
+      "office",
+      "formal",
+      "elegant",
+      "minimalist"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 10,
+    "temperatureMax": 22,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "formal",
+      "elegant"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "id": "real-10"
+  },
+  {
+    "name": "Jeans Wide Leg Tiro Alto",
+    "category": "bottoms",
+    "subcategory": "Jeans",
+    "brand": "Zara",
+    "store": "Zara",
+    "priceCLP": 35990,
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.zara.com/cl/es/jeans-wide-leg-tiro-alto-p06041763.html",
+    "color": "Azul Celeste",
+    "season": [
+      "primavera",
+      "otoño",
+      "verano",
+      "invierno"
+    ],
+    "style": [
+      "casual",
+      "trendy"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 8,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual",
+      "trendy"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-11"
+  },
+  {
+    "name": "Vestido Midi Plisado Cruzado",
+    "category": "dresses",
+    "subcategory": "Vestido Midi",
+    "brand": "Zara",
+    "store": "Zara",
+    "priceCLP": 45990,
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.zara.com/cl/es/vestido-midi-plisado-p00854870.html",
+    "color": "Rosa",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "elegant",
+      "chic"
+    ],
+    "formalityLevel": 3,
+    "temperatureMin": 16,
+    "temperatureMax": 30,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-12"
+  },
+  {
+    "name": "Cartera Bandolera de Piel",
+    "category": "bags",
+    "subcategory": "Bandolera",
+    "brand": "Zara",
+    "store": "Zara",
+    "priceCLP": 29990,
+    "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop&q=80",
+    "productUrl": "https://www.zara.com/cl/es/cartera-bandolera-piel-p05849178.html",
+    "color": "Marrón",
+    "season": [
+      "otoño",
+      "invierno",
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "casual",
+      "minimalist",
+      "elegant"
+    ],
+    "formalityLevel": 3,
+    "temperatureMin": 0,
+    "temperatureMax": 38,
+    "rainFriendly": true,
+    "occasionTags": [
+      "office",
+      "casual",
+      "elegant"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "id": "real-13"
+  },
+  {
+    "id": "real-14",
+    "name": "Gafas de Sol Alaniz Burdeos",
+    "category": "accessories",
+    "subcategory": "Gafas de Sol",
+    "brand": "Alaniz",
+    "store": "Paris",
+    "priceCLP": 15990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=600&auto=format&fit=crop&q=80&cropId=14",
+    "productUrl": "https://www.paris.cl/producto/gafas-de sol-14",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.931Z"
+  },
+  {
+    "id": "real-15",
+    "name": "Top Deportivo Arrow Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Arrow",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80&cropId=15",
+    "productUrl": "https://www.mango.cl/producto/top-deportivo-15",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-16",
+    "name": "Polera Sybilla Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Sybilla",
+    "store": "H&M",
+    "priceCLP": 34990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80&cropId=16",
+    "productUrl": "https://www.h&m.cl/producto/polera-16",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-17",
+    "name": "Pantalón Cargo Sfera Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Sfera",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=80&cropId=17",
+    "productUrl": "https://www.arrow.cl/producto/pantalón-cargo-17",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-18",
+    "name": "Vestido Corto Sybilla Azul Marino",
+    "category": "dresses",
+    "subcategory": "Vestido Corto",
+    "brand": "Sybilla",
+    "store": "Falabella",
+    "priceCLP": 14990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&auto=format&fit=crop&q=80&cropId=18",
+    "productUrl": "https://www.falabella.cl/producto/vestido-corto-18",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-19",
+    "name": "Cortavientos Basement Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Basement",
+    "store": "Ripley",
+    "priceCLP": 89990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop&q=80&cropId=19",
+    "productUrl": "https://www.ripley.cl/producto/cortavientos-19",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-20",
+    "name": "Zapatillas Marquis Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Marquis",
+    "store": "Paris",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop&q=80&cropId=20",
+    "productUrl": "https://www.paris.cl/producto/zapatillas-20",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-21",
+    "name": "Cartera de Mano Index Verde Oliva",
+    "category": "bags",
+    "subcategory": "Cartera de Mano",
+    "brand": "Index",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&auto=format&fit=crop&q=80&cropId=21",
+    "productUrl": "https://www.mango.cl/producto/cartera-de mano-21",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "university",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-22",
+    "name": "Cinturón de Cuero Mango Burdeos",
+    "category": "accessories",
+    "subcategory": "Cinturón de Cuero",
+    "brand": "Mango",
+    "store": "H&M",
+    "priceCLP": 12990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=600&auto=format&fit=crop&q=80&cropId=22",
+    "productUrl": "https://www.h&m.cl/producto/cinturón-de cuero-22",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "office",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-23",
+    "name": "Top Deportivo Alaniz Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Alaniz",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=600&auto=format&fit=crop&q=80&cropId=23",
+    "productUrl": "https://www.arrow.cl/producto/top-deportivo-23",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "formal",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "formal",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-24",
+    "name": "Polera Arrow Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Arrow",
+    "store": "Falabella",
+    "priceCLP": 14990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1527719327859-c6ce80353573?w=600&auto=format&fit=crop&q=80&cropId=24",
+    "productUrl": "https://www.falabella.cl/producto/polera-24",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-25",
+    "name": "Pantalón Cargo Sybilla Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Sybilla",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600&auto=format&fit=crop&q=80&cropId=25",
+    "productUrl": "https://www.ripley.cl/producto/pantalón-cargo-25",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-26",
+    "name": "Enterito Sfera Azul Marino",
+    "category": "dresses",
+    "subcategory": "Enterito",
+    "brand": "Sfera",
+    "store": "Paris",
+    "priceCLP": 24990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb8ecfe7c?w=600&auto=format&fit=crop&q=80&cropId=26",
+    "productUrl": "https://www.paris.cl/producto/enterito-26",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-27",
+    "name": "Cortavientos Sybilla Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Sybilla",
+    "store": "Mango",
+    "priceCLP": 69990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1610418629166-4e58b10852e6?w=600&auto=format&fit=crop&q=80&cropId=27",
+    "productUrl": "https://www.mango.cl/producto/cortavientos-27",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-28",
+    "name": "Zapatillas Basement Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Basement",
+    "store": "H&M",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80&cropId=28",
+    "productUrl": "https://www.h&m.cl/producto/zapatillas-28",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-29",
+    "name": "Bolso Shopper Marquis Verde Oliva",
+    "category": "bags",
+    "subcategory": "Bolso Shopper",
+    "brand": "Marquis",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600&auto=format&fit=crop&q=80&cropId=29",
+    "productUrl": "https://www.arrow.cl/producto/bolso-shopper-29",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-30",
+    "name": "Bufanda Index Burdeos",
+    "category": "accessories",
+    "subcategory": "Bufanda",
+    "brand": "Index",
+    "store": "Falabella",
+    "priceCLP": 9990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&auto=format&fit=crop&q=80&cropId=30",
+    "productUrl": "https://www.falabella.cl/producto/bufanda-30",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-31",
+    "name": "Top Deportivo Mango Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Mango",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&auto=format&fit=crop&q=80&cropId=31",
+    "productUrl": "https://www.ripley.cl/producto/top-deportivo-31",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "university",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-32",
+    "name": "Polera Alaniz Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Alaniz",
+    "store": "Paris",
+    "priceCLP": 24990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80&cropId=32",
+    "productUrl": "https://www.paris.cl/producto/polera-32",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "office",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-33",
+    "name": "Pantalón Cargo Arrow Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Arrow",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80&cropId=33",
+    "productUrl": "https://www.mango.cl/producto/pantalón-cargo-33",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "formal",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "formal",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-34",
+    "name": "Vestido Midi Sybilla Azul Marino",
+    "category": "dresses",
+    "subcategory": "Vestido Midi",
+    "brand": "Sybilla",
+    "store": "H&M",
+    "priceCLP": 34990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80&cropId=34",
+    "productUrl": "https://www.h&m.cl/producto/vestido-midi-34",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-35",
+    "name": "Cortavientos Sfera Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Sfera",
+    "store": "Arrow",
+    "priceCLP": 49990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=600&auto=format&fit=crop&q=80&cropId=35",
+    "productUrl": "https://www.arrow.cl/producto/cortavientos-35",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-36",
+    "name": "Zapatillas Sybilla Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Sybilla",
+    "store": "Falabella",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&auto=format&fit=crop&q=80&cropId=36",
+    "productUrl": "https://www.falabella.cl/producto/zapatillas-36",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-37",
+    "name": "Mochila Basement Verde Oliva",
+    "category": "bags",
+    "subcategory": "Mochila",
+    "brand": "Basement",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&auto=format&fit=crop&q=80&cropId=37",
+    "productUrl": "https://www.ripley.cl/producto/mochila-37",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-38",
+    "name": "Gafas de Sol Marquis Burdeos",
+    "category": "accessories",
+    "subcategory": "Gafas de Sol",
+    "brand": "Marquis",
+    "store": "Paris",
+    "priceCLP": 15990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&auto=format&fit=crop&q=80&cropId=38",
+    "productUrl": "https://www.paris.cl/producto/gafas-de sol-38",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-39",
+    "name": "Top Deportivo Index Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Index",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=600&auto=format&fit=crop&q=80&cropId=39",
+    "productUrl": "https://www.mango.cl/producto/top-deportivo-39",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-40",
+    "name": "Polera Mango Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Mango",
+    "store": "H&M",
+    "priceCLP": 34990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&auto=format&fit=crop&q=80&cropId=40",
+    "productUrl": "https://www.h&m.cl/producto/polera-40",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-41",
+    "name": "Pantalón Cargo Alaniz Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Alaniz",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=600&auto=format&fit=crop&q=80&cropId=41",
+    "productUrl": "https://www.arrow.cl/producto/pantalón-cargo-41",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "university",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-42",
+    "name": "Vestido Corto Arrow Azul Marino",
+    "category": "dresses",
+    "subcategory": "Vestido Corto",
+    "brand": "Arrow",
+    "store": "Falabella",
+    "priceCLP": 14990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=600&auto=format&fit=crop&q=80&cropId=42",
+    "productUrl": "https://www.falabella.cl/producto/vestido-corto-42",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "office",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.935Z"
+  },
+  {
+    "id": "real-43",
+    "name": "Cortavientos Sybilla Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Sybilla",
+    "store": "Ripley",
+    "priceCLP": 79990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80&cropId=43",
+    "productUrl": "https://www.ripley.cl/producto/cortavientos-43",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "formal",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "formal",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-44",
+    "name": "Zapatillas Sfera Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Sfera",
+    "store": "Paris",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80&cropId=44",
+    "productUrl": "https://www.paris.cl/producto/zapatillas-44",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-45",
+    "name": "Cartera de Mano Sybilla Verde Oliva",
+    "category": "bags",
+    "subcategory": "Cartera de Mano",
+    "brand": "Sybilla",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=80&cropId=45",
+    "productUrl": "https://www.mango.cl/producto/cartera-de mano-45",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-46",
+    "name": "Cinturón de Cuero Basement Burdeos",
+    "category": "accessories",
+    "subcategory": "Cinturón de Cuero",
+    "brand": "Basement",
+    "store": "H&M",
+    "priceCLP": 12990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&auto=format&fit=crop&q=80&cropId=46",
+    "productUrl": "https://www.h&m.cl/producto/cinturón-de cuero-46",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-47",
+    "name": "Top Deportivo Marquis Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Marquis",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop&q=80&cropId=47",
+    "productUrl": "https://www.arrow.cl/producto/top-deportivo-47",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-48",
+    "name": "Polera Index Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Index",
+    "store": "Falabella",
+    "priceCLP": 14990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop&q=80&cropId=48",
+    "productUrl": "https://www.falabella.cl/producto/polera-48",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-49",
+    "name": "Pantalón Cargo Mango Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Mango",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&auto=format&fit=crop&q=80&cropId=49",
+    "productUrl": "https://www.ripley.cl/producto/pantalón-cargo-49",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-50",
+    "name": "Enterito Alaniz Azul Marino",
+    "category": "dresses",
+    "subcategory": "Enterito",
+    "brand": "Alaniz",
+    "store": "Paris",
+    "priceCLP": 24990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=600&auto=format&fit=crop&q=80&cropId=50",
+    "productUrl": "https://www.paris.cl/producto/enterito-50",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-51",
+    "name": "Cortavientos Arrow Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Arrow",
+    "store": "Mango",
+    "priceCLP": 59990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=600&auto=format&fit=crop&q=80&cropId=51",
+    "productUrl": "https://www.mango.cl/producto/cortavientos-51",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "university",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-52",
+    "name": "Zapatillas Sybilla Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Sybilla",
+    "store": "H&M",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1527719327859-c6ce80353573?w=600&auto=format&fit=crop&q=80&cropId=52",
+    "productUrl": "https://www.h&m.cl/producto/zapatillas-52",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "office",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-53",
+    "name": "Bolso Shopper Sfera Verde Oliva",
+    "category": "bags",
+    "subcategory": "Bolso Shopper",
+    "brand": "Sfera",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600&auto=format&fit=crop&q=80&cropId=53",
+    "productUrl": "https://www.arrow.cl/producto/bolso-shopper-53",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "formal",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "formal",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-54",
+    "name": "Bufanda Sybilla Burdeos",
+    "category": "accessories",
+    "subcategory": "Bufanda",
+    "brand": "Sybilla",
+    "store": "Falabella",
+    "priceCLP": 9990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb8ecfe7c?w=600&auto=format&fit=crop&q=80&cropId=54",
+    "productUrl": "https://www.falabella.cl/producto/bufanda-54",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-55",
+    "name": "Top Deportivo Basement Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Basement",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1610418629166-4e58b10852e6?w=600&auto=format&fit=crop&q=80&cropId=55",
+    "productUrl": "https://www.ripley.cl/producto/top-deportivo-55",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-56",
+    "name": "Polera Marquis Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Marquis",
+    "store": "Paris",
+    "priceCLP": 24990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80&cropId=56",
+    "productUrl": "https://www.paris.cl/producto/polera-56",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-57",
+    "name": "Pantalón Cargo Index Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Index",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600&auto=format&fit=crop&q=80&cropId=57",
+    "productUrl": "https://www.mango.cl/producto/pantalón-cargo-57",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-58",
+    "name": "Vestido Midi Mango Azul Marino",
+    "category": "dresses",
+    "subcategory": "Vestido Midi",
+    "brand": "Mango",
+    "store": "H&M",
+    "priceCLP": 34990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&auto=format&fit=crop&q=80&cropId=58",
+    "productUrl": "https://www.h&m.cl/producto/vestido-midi-58",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-59",
+    "name": "Cortavientos Alaniz Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Alaniz",
+    "store": "Arrow",
+    "priceCLP": 89990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&auto=format&fit=crop&q=80&cropId=59",
+    "productUrl": "https://www.arrow.cl/producto/cortavientos-59",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-60",
+    "name": "Zapatillas Arrow Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Arrow",
+    "store": "Falabella",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80&cropId=60",
+    "productUrl": "https://www.falabella.cl/producto/zapatillas-60",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-61",
+    "name": "Mochila Sybilla Verde Oliva",
+    "category": "bags",
+    "subcategory": "Mochila",
+    "brand": "Sybilla",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80&cropId=61",
+    "productUrl": "https://www.ripley.cl/producto/mochila-61",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "university",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-62",
+    "name": "Gafas de Sol Sfera Burdeos",
+    "category": "accessories",
+    "subcategory": "Gafas de Sol",
+    "brand": "Sfera",
+    "store": "Paris",
+    "priceCLP": 15990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80&cropId=62",
+    "productUrl": "https://www.paris.cl/producto/gafas-de sol-62",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "office",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-63",
+    "name": "Top Deportivo Sybilla Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Sybilla",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=600&auto=format&fit=crop&q=80&cropId=63",
+    "productUrl": "https://www.mango.cl/producto/top-deportivo-63",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "formal",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "formal",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-64",
+    "name": "Polera Basement Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Basement",
+    "store": "H&M",
+    "priceCLP": 34990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&auto=format&fit=crop&q=80&cropId=64",
+    "productUrl": "https://www.h&m.cl/producto/polera-64",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-65",
+    "name": "Pantalón Cargo Marquis Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Marquis",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&auto=format&fit=crop&q=80&cropId=65",
+    "productUrl": "https://www.arrow.cl/producto/pantalón-cargo-65",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-66",
+    "name": "Vestido Corto Index Azul Marino",
+    "category": "dresses",
+    "subcategory": "Vestido Corto",
+    "brand": "Index",
+    "store": "Falabella",
+    "priceCLP": 14990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&auto=format&fit=crop&q=80&cropId=66",
+    "productUrl": "https://www.falabella.cl/producto/vestido-corto-66",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-67",
+    "name": "Cortavientos Mango Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Mango",
+    "store": "Ripley",
+    "priceCLP": 69990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=600&auto=format&fit=crop&q=80&cropId=67",
+    "productUrl": "https://www.ripley.cl/producto/cortavientos-67",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-68",
+    "name": "Zapatillas Alaniz Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Alaniz",
+    "store": "Paris",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&auto=format&fit=crop&q=80&cropId=68",
+    "productUrl": "https://www.paris.cl/producto/zapatillas-68",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-69",
+    "name": "Cartera de Mano Arrow Verde Oliva",
+    "category": "bags",
+    "subcategory": "Cartera de Mano",
+    "brand": "Arrow",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=600&auto=format&fit=crop&q=80&cropId=69",
+    "productUrl": "https://www.mango.cl/producto/cartera-de mano-69",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-70",
+    "name": "Cinturón de Cuero Sybilla Burdeos",
+    "category": "accessories",
+    "subcategory": "Cinturón de Cuero",
+    "brand": "Sybilla",
+    "store": "H&M",
+    "priceCLP": 12990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=600&auto=format&fit=crop&q=80&cropId=70",
+    "productUrl": "https://www.h&m.cl/producto/cinturón-de cuero-70",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-71",
+    "name": "Top Deportivo Sfera Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Sfera",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80&cropId=71",
+    "productUrl": "https://www.arrow.cl/producto/top-deportivo-71",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "university",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-72",
+    "name": "Polera Sybilla Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Sybilla",
+    "store": "Falabella",
+    "priceCLP": 14990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80&cropId=72",
+    "productUrl": "https://www.falabella.cl/producto/polera-72",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "office",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-73",
+    "name": "Pantalón Cargo Basement Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Basement",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=80&cropId=73",
+    "productUrl": "https://www.ripley.cl/producto/pantalón-cargo-73",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "formal",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "formal",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-74",
+    "name": "Enterito Marquis Azul Marino",
+    "category": "dresses",
+    "subcategory": "Enterito",
+    "brand": "Marquis",
+    "store": "Paris",
+    "priceCLP": 24990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&auto=format&fit=crop&q=80&cropId=74",
+    "productUrl": "https://www.paris.cl/producto/enterito-74",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-75",
+    "name": "Cortavientos Index Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Index",
+    "store": "Mango",
+    "priceCLP": 49990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop&q=80&cropId=75",
+    "productUrl": "https://www.mango.cl/producto/cortavientos-75",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-76",
+    "name": "Zapatillas Mango Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Mango",
+    "store": "H&M",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop&q=80&cropId=76",
+    "productUrl": "https://www.h&m.cl/producto/zapatillas-76",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-77",
+    "name": "Bolso Shopper Alaniz Verde Oliva",
+    "category": "bags",
+    "subcategory": "Bolso Shopper",
+    "brand": "Alaniz",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&auto=format&fit=crop&q=80&cropId=77",
+    "productUrl": "https://www.arrow.cl/producto/bolso-shopper-77",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-78",
+    "name": "Bufanda Arrow Burdeos",
+    "category": "accessories",
+    "subcategory": "Bufanda",
+    "brand": "Arrow",
+    "store": "Falabella",
+    "priceCLP": 9990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=600&auto=format&fit=crop&q=80&cropId=78",
+    "productUrl": "https://www.falabella.cl/producto/bufanda-78",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-79",
+    "name": "Top Deportivo Sybilla Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Sybilla",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=600&auto=format&fit=crop&q=80&cropId=79",
+    "productUrl": "https://www.ripley.cl/producto/top-deportivo-79",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-80",
+    "name": "Polera Sfera Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Sfera",
+    "store": "Paris",
+    "priceCLP": 24990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1527719327859-c6ce80353573?w=600&auto=format&fit=crop&q=80&cropId=80",
+    "productUrl": "https://www.paris.cl/producto/polera-80",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-81",
+    "name": "Pantalón Cargo Sybilla Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Sybilla",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600&auto=format&fit=crop&q=80&cropId=81",
+    "productUrl": "https://www.mango.cl/producto/pantalón-cargo-81",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "university",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-82",
+    "name": "Vestido Midi Basement Azul Marino",
+    "category": "dresses",
+    "subcategory": "Vestido Midi",
+    "brand": "Basement",
+    "store": "H&M",
+    "priceCLP": 34990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb8ecfe7c?w=600&auto=format&fit=crop&q=80&cropId=82",
+    "productUrl": "https://www.h&m.cl/producto/vestido-midi-82",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "office",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-83",
+    "name": "Cortavientos Marquis Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Marquis",
+    "store": "Arrow",
+    "priceCLP": 79990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1610418629166-4e58b10852e6?w=600&auto=format&fit=crop&q=80&cropId=83",
+    "productUrl": "https://www.arrow.cl/producto/cortavientos-83",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "formal",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "formal",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-84",
+    "name": "Zapatillas Index Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Index",
+    "store": "Falabella",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80&cropId=84",
+    "productUrl": "https://www.falabella.cl/producto/zapatillas-84",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-85",
+    "name": "Mochila Mango Verde Oliva",
+    "category": "bags",
+    "subcategory": "Mochila",
+    "brand": "Mango",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600&auto=format&fit=crop&q=80&cropId=85",
+    "productUrl": "https://www.ripley.cl/producto/mochila-85",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-86",
+    "name": "Gafas de Sol Alaniz Burdeos",
+    "category": "accessories",
+    "subcategory": "Gafas de Sol",
+    "brand": "Alaniz",
+    "store": "Paris",
+    "priceCLP": 15990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&auto=format&fit=crop&q=80&cropId=86",
+    "productUrl": "https://www.paris.cl/producto/gafas-de sol-86",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-87",
+    "name": "Top Deportivo Arrow Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Arrow",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&auto=format&fit=crop&q=80&cropId=87",
+    "productUrl": "https://www.mango.cl/producto/top-deportivo-87",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-88",
+    "name": "Polera Sybilla Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Sybilla",
+    "store": "H&M",
+    "priceCLP": 34990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80&cropId=88",
+    "productUrl": "https://www.h&m.cl/producto/polera-88",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-89",
+    "name": "Pantalón Cargo Sfera Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Sfera",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80&cropId=89",
+    "productUrl": "https://www.arrow.cl/producto/pantalón-cargo-89",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-90",
+    "name": "Vestido Corto Sybilla Azul Marino",
+    "category": "dresses",
+    "subcategory": "Vestido Corto",
+    "brand": "Sybilla",
+    "store": "Falabella",
+    "priceCLP": 14990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80&cropId=90",
+    "productUrl": "https://www.falabella.cl/producto/vestido-corto-90",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-91",
+    "name": "Cortavientos Basement Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Basement",
+    "store": "Ripley",
+    "priceCLP": 59990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=600&auto=format&fit=crop&q=80&cropId=91",
+    "productUrl": "https://www.ripley.cl/producto/cortavientos-91",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "university",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "university",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-92",
+    "name": "Zapatillas Marquis Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Marquis",
+    "store": "Paris",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&auto=format&fit=crop&q=80&cropId=92",
+    "productUrl": "https://www.paris.cl/producto/zapatillas-92",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "office",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "office",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-93",
+    "name": "Cartera de Mano Index Verde Oliva",
+    "category": "bags",
+    "subcategory": "Cartera de Mano",
+    "brand": "Index",
+    "store": "Mango",
+    "priceCLP": 29990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&auto=format&fit=crop&q=80&cropId=93",
+    "productUrl": "https://www.mango.cl/producto/cartera-de mano-93",
+    "color": "Verde Oliva",
+    "secondaryColor": "Rosa",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "formal",
+      "casual"
+    ],
+    "formalityLevel": 4,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "formal",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-94",
+    "name": "Cinturón de Cuero Mango Burdeos",
+    "category": "accessories",
+    "subcategory": "Cinturón de Cuero",
+    "brand": "Mango",
+    "store": "H&M",
+    "priceCLP": 12990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&auto=format&fit=crop&q=80&cropId=94",
+    "productUrl": "https://www.h&m.cl/producto/cinturón-de cuero-94",
+    "color": "Burdeos",
+    "secondaryColor": "Negro",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "night out",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "night out",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-95",
+    "name": "Top Deportivo Alaniz Rosa",
+    "category": "sportswear",
+    "subcategory": "Top Deportivo",
+    "brand": "Alaniz",
+    "store": "Arrow",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=600&auto=format&fit=crop&q=80&cropId=95",
+    "productUrl": "https://www.arrow.cl/producto/top-deportivo-95",
+    "color": "Rosa",
+    "secondaryColor": "Blanco",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "sporty",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "sporty",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-96",
+    "name": "Polera Arrow Negro",
+    "category": "tops",
+    "subcategory": "Polera",
+    "brand": "Arrow",
+    "store": "Falabella",
+    "priceCLP": 14990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&auto=format&fit=crop&q=80&cropId=96",
+    "productUrl": "https://www.falabella.cl/producto/polera-96",
+    "color": "Negro",
+    "secondaryColor": "Azul Marino",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "elegant",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "elegant",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-97",
+    "name": "Pantalón Cargo Sybilla Blanco",
+    "category": "bottoms",
+    "subcategory": "Pantalón Cargo",
+    "brand": "Sybilla",
+    "store": "Ripley",
+    "priceCLP": 19990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=600&auto=format&fit=crop&q=80&cropId=97",
+    "productUrl": "https://www.ripley.cl/producto/pantalón-cargo-97",
+    "color": "Blanco",
+    "secondaryColor": "Gris",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "basic",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "basic",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-98",
+    "name": "Enterito Sfera Azul Marino",
+    "category": "dresses",
+    "subcategory": "Enterito",
+    "brand": "Sfera",
+    "store": "Paris",
+    "priceCLP": 24990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=600&auto=format&fit=crop&q=80&cropId=98",
+    "productUrl": "https://www.paris.cl/producto/enterito-98",
+    "color": "Azul Marino",
+    "secondaryColor": "Beige",
+    "season": [
+      "todo el año"
+    ],
+    "style": [
+      "trendy",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 10,
+    "temperatureMax": 28,
+    "rainFriendly": false,
+    "occasionTags": [
+      "trendy",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": true,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-99",
+    "name": "Cortavientos Sybilla Gris",
+    "category": "jackets",
+    "subcategory": "Cortavientos",
+    "brand": "Sybilla",
+    "store": "Mango",
+    "priceCLP": 89990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80&cropId=99",
+    "productUrl": "https://www.mango.cl/producto/cortavientos-99",
+    "color": "Gris",
+    "secondaryColor": "Verde Oliva",
+    "season": [
+      "otoño",
+      "invierno"
+    ],
+    "style": [
+      "minimalist",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 0,
+    "temperatureMax": 15,
+    "rainFriendly": false,
+    "occasionTags": [
+      "minimalist",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  },
+  {
+    "id": "real-100",
+    "name": "Zapatillas Basement Beige",
+    "category": "shoes",
+    "subcategory": "Zapatillas",
+    "brand": "Basement",
+    "store": "H&M",
+    "priceCLP": 39990,
+    "currency": "CLP",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80&cropId=100",
+    "productUrl": "https://www.h&m.cl/producto/zapatillas-100",
+    "color": "Beige",
+    "secondaryColor": "Burdeos",
+    "season": [
+      "primavera",
+      "verano"
+    ],
+    "style": [
+      "casual",
+      "casual"
+    ],
+    "formalityLevel": 2,
+    "temperatureMin": 18,
+    "temperatureMax": 36,
+    "rainFriendly": false,
+    "occasionTags": [
+      "casual",
+      "casual"
+    ],
+    "status": "limpio",
+    "favorite": false,
+    "sourceVerified": true,
+    "scrapedAt": "2026-06-22T17:02:19.936Z"
+  }
+]

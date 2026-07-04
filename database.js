@@ -39,29 +39,36 @@ function initializeDatabase() {
         store TEXT,
         category TEXT CHECK(category IN ('tops', 'bottoms', 'jackets', 'shoes', 'accessories', 'dresses', 'bags', 'sportswear')) NOT NULL,
         color TEXT,
+        gender TEXT DEFAULT 'unisex' CHECK(gender IN ('mujer', 'hombre', 'unisex')),
         image_url TEXT,
         status TEXT DEFAULT 'clean' CHECK(status IN ('clean', 'dirty', 'lent')),
         purchase_url TEXT,
         price REAL,
         style TEXT DEFAULT 'Casual',
+        is_catalog INTEGER DEFAULT 0,
         created_at DATETIME DEFAULT CURRENT_TIMESTAMP
       )
     `, () => {
-      // Verificar si la columna 'style' existe. Si no, agregarla.
+      // Verificar y añadir columnas que falten para compatibilidad
       db.all("PRAGMA table_info(clothes)", (err, columns) => {
         if (err) {
           console.error("Error al consultar pragma table_info:", err.message);
           return;
         }
+        
         const hasStyle = columns.some(col => col.name === 'style');
         if (!hasStyle) {
-          db.run("ALTER TABLE clothes ADD COLUMN style TEXT DEFAULT 'Casual'", (alterErr) => {
-            if (alterErr) {
-              console.error("Error al añadir columna style:", alterErr.message);
-            } else {
-              console.log("Columna 'style' añadida con éxito a la tabla clothes.");
-            }
-          });
+          db.run("ALTER TABLE clothes ADD COLUMN style TEXT DEFAULT 'Casual'");
+        }
+        
+        const hasGender = columns.some(col => col.name === 'gender');
+        if (!hasGender) {
+          db.run("ALTER TABLE clothes ADD COLUMN gender TEXT DEFAULT 'unisex'");
+        }
+        
+        const hasIsCatalog = columns.some(col => col.name === 'is_catalog');
+        if (!hasIsCatalog) {
+          db.run("ALTER TABLE clothes ADD COLUMN is_catalog INTEGER DEFAULT 0");
         }
       });
     });

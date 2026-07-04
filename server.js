@@ -80,7 +80,7 @@ app.get('/api/clothes', async (req, res) => {
 
 // 2. Agregar una prenda
 app.post('/api/clothes', async (req, res) => {
-  const { name, brand, store, category, color, image_url, purchase_url, price, style } = req.body;
+  const { name, brand, store, category, color, image_url, purchase_url, price, style, gender } = req.body;
   if (!name || !category) {
     return res.status(400).json({ error: 'El nombre y la categoría son requeridos.' });
   }
@@ -94,12 +94,13 @@ app.post('/api/clothes', async (req, res) => {
   // Validación de estilo oficial
   const validStyles = ['Formal', 'Casual', 'Deportivo', 'Eventos de Ocasión'];
   const dbStyle = validStyles.includes(style) ? style : 'Casual';
+  const dbGender = (gender && ['mujer', 'hombre', 'unisex'].includes(gender)) ? gender : 'unisex';
 
   try {
     const result = await dbQuery.run(`
-      INSERT INTO clothes (name, brand, store, category, color, image_url, purchase_url, price, status, style)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'clean', ?)
-    `, [name, brand, store, category, color, image_url, purchase_url, price, dbStyle]);
+      INSERT INTO clothes (name, brand, store, category, color, gender, image_url, purchase_url, price, status, style)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'clean', ?)
+    `, [name, brand, store, category, color, dbGender, image_url, purchase_url, price, dbStyle]);
     
     const newGarment = await dbQuery.get('SELECT * FROM clothes WHERE id = ?', [result.id]);
     res.status(201).json(newGarment);
@@ -111,7 +112,7 @@ app.post('/api/clothes', async (req, res) => {
 // 3. Modificar prenda (incluido estado clean/dirty/lent y estilo)
 app.put('/api/clothes/:id', async (req, res) => {
   const { id } = req.params;
-  const { name, brand, store, category, color, status, price, style } = req.body;
+  const { name, brand, store, category, color, status, price, style, gender } = req.body;
 
   const validStyles = ['Formal', 'Casual', 'Deportivo', 'Eventos de Ocasión'];
 
@@ -129,12 +130,13 @@ app.put('/api/clothes/:id', async (req, res) => {
     const updatedStatus = status !== undefined ? status : existing.status;
     const updatedPrice = price !== undefined ? price : existing.price;
     const updatedStyle = (style !== undefined && validStyles.includes(style)) ? style : existing.style;
+    const updatedGender = (gender !== undefined && ['mujer', 'hombre', 'unisex'].includes(gender)) ? gender : existing.gender;
 
     await dbQuery.run(`
       UPDATE clothes 
-      SET name = ?, brand = ?, store = ?, category = ?, color = ?, status = ?, price = ?, style = ?
+      SET name = ?, brand = ?, store = ?, category = ?, color = ?, status = ?, price = ?, style = ?, gender = ?
       WHERE id = ?
-    `, [updatedName, updatedBrand, updatedStore, updatedCategory, updatedColor, updatedStatus, updatedPrice, updatedStyle, id]);
+    `, [updatedName, updatedBrand, updatedStore, updatedCategory, updatedColor, updatedStatus, updatedPrice, updatedStyle, updatedGender, id]);
 
     const updatedGarment = await dbQuery.get('SELECT * FROM clothes WHERE id = ?', [id]);
     res.json(updatedGarment);
@@ -363,26 +365,93 @@ app.delete('/api/calendar/:day', async (req, res) => {
   }
 });
 
-// 10. Asistente inteligente con la API de Gemini
+// 10. Asistente inteligente con la API de Gemini (ruteado por Edge Function con fallback)
 app.post('/api/assistant', async (req, res) => {
   const { prompt, gemini_key, weather, profile } = req.body;
   if (!gemini_key) {
     return res.status(400).json({ error: 'La clave de API de Gemini es requerida.' });
   }
 
+  // Intentar llamar a la nueva Supabase Edge Function
   try {
-    // Obtener todas las prendas del clóset (sólo limpias)
-    const clothes = await dbQuery.all("SELECT * FROM clothes WHERE status = 'clean'");
+    // Intentar leer URL de Supabase del archivo .env local
+    let supabaseUrl = process.env.SUPABASE_URL;
+    let serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-    // Preparar los datos para el prompt
-    const clothesInfo = clothes.map(c => `ID: ${c.id}, Nombre: ${c.name}, Categoría: ${c.category}, Color: ${c.color}, Estilo: ${c.style}, Marca: ${c.brand}`).join('\n');
+    try {
+      const envPath = path.join(__dirname, '.env');
+      if (fs.existsSync(envPath)) {
+        const envLines = fs.readFileSync(envPath, 'utf-8').split('\n');
+        for (const line of envLines) {
+          if (line.startsWith('SUPABASE_URL=')) {
+            supabaseUrl = line.split('=')[1].trim();
+          }
+          if (line.startsWith('SUPABASE_SERVICE_ROLE_KEY=')) {
+            serviceKey = line.split('=')[1].trim();
+          }
+        }
+      }
+    } catch (e) {
+      // Ignorar fallos de lectura manual de .env
+    }
+
+    // Si no está configurada o es la de por defecto, apuntamos a la local
+    const useLocal = !supabaseUrl || supabaseUrl.includes('tu-proyecto');
+    const edgeUrl = useLocal 
+      ? 'http://localhost:54321/functions/v1/fashion-agent' 
+      : `${supabaseUrl}/functions/v1/fashion-agent`;
+
+    console.log(`[Assistant] Intentando conectar con Supabase Edge Function en: ${edgeUrl}`);
+
+    const edgeResponse = await axios.post(edgeUrl, {
+      query: prompt,
+      userEmail: profile?.email || 'test@example.com'
+    }, {
+      headers: {
+        'Authorization': `Bearer ${serviceKey || 'YOUR_SERVICE_ROLE_KEY'}`,
+        'Content-Type': 'application/json'
+      },
+      timeout: 15000
+    });
+
+    const edgeData = edgeResponse.data;
+    const outfitIds = edgeData.suggestedIds || [];
     
-    const userName = profile?.name || 'Usuario';
-    const userGender = profile?.gender || 'Sin especificar';
-    const temp = weather?.currentTemp !== undefined ? weather.currentTemp : 15;
-    const rainProb = weather?.rainProbability !== undefined ? weather.rainProbability : 0;
+    // Obtener los objetos de prendas desde SQLite usando los IDs recomendados
+    let recommendedClothes = [];
+    if (outfitIds.length > 0) {
+      const placeholders = outfitIds.map(() => '?').join(',');
+      recommendedClothes = await dbQuery.all(`SELECT * FROM clothes WHERE id IN (${placeholders})`, outfitIds);
+    }
 
-    const systemPrompt = `Eres Aura, una estilista personal inteligente para un clóset virtual. 
+    console.log(`[Assistant] Edge Function respondió con éxito. ${recommendedClothes.length} prendas recomendadas.`);
+    return res.json({
+      reply: edgeData.text,
+      outfit: recommendedClothes
+    });
+
+  } catch (edgeError) {
+    console.warn(`[Assistant] Edge Function no disponible (${edgeError.message}). Usando fallback directo de Gemini.`);
+    
+    // Fallback original si no está levantado Supabase
+    try {
+      let query = "SELECT * FROM clothes WHERE status = 'clean'";
+      let params = [];
+      if (profile?.gender === 'Masculino') {
+        query += " AND gender IN ('hombre', 'unisex')";
+      } else if (profile?.gender === 'Femenino') {
+        query += " AND gender IN ('mujer', 'unisex')";
+      }
+      const clothes = await dbQuery.all(query, params);
+
+      const clothesInfo = clothes.map(c => `ID: ${c.id}, Nombre: ${c.name}, Categoría: ${c.category}, Color: ${c.color}, Estilo: ${c.style}, Marca: ${c.brand}`).join('\n');
+      
+      const userName = profile?.name || 'Usuario';
+      const userGender = profile?.gender || 'Sin especificar';
+      const temp = weather?.currentTemp !== undefined ? weather.currentTemp : 15;
+      const rainProb = weather?.rainProbability !== undefined ? weather.rainProbability : 0;
+
+      const systemPrompt = `Eres Aura, una estilista personal inteligente para un clóset virtual. 
 Tu usuario se llama ${userName} y su género es ${userGender}.
 El clima actual en su ciudad es de ${temp}°C con una probabilidad de lluvia del ${rainProb}%.
 
@@ -401,40 +470,30 @@ Instrucciones obligatorias:
   "outfit_ids": [id1, id2, ...]
 }`;
 
-    // Llamar a la API de Gemini
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${gemini_key}`;
-    const response = await axios.post(geminiUrl, {
-      contents: [
-        {
-          parts: [
-            { text: systemPrompt }
-          ]
-        }
-      ],
-      generationConfig: {
-        responseMimeType: "application/json"
+      const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${gemini_key}`;
+      const response = await axios.post(geminiUrl, {
+        contents: [{ parts: [{ text: systemPrompt }] }],
+        generationConfig: { responseMimeType: "application/json" }
+      }, { timeout: 10000 });
+
+      const responseText = response.data?.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!responseText) {
+        throw new Error('Respuesta vacía de Gemini');
       }
-    }, { timeout: 10000 });
 
-    const responseText = response.data?.candidates?.[0]?.content?.parts?.[0]?.text;
-    if (!responseText) {
-      throw new Error('Respuesta vacía de Gemini');
+      const result = JSON.parse(responseText.trim());
+      const outfitIds = result.outfit_ids || [];
+      const recommendedClothes = clothes.filter(c => outfitIds.includes(c.id));
+
+      return res.json({
+        reply: result.reply,
+        outfit: recommendedClothes
+      });
+
+    } catch (err) {
+      console.error('Error en fallback directo de Gemini:', err);
+      return res.status(500).json({ error: 'Error al procesar la sugerencia con Gemini: ' + err.message });
     }
-
-    const result = JSON.parse(responseText.trim());
-    
-    // Obtener los objetos de prendas completos a partir de los IDs devueltos por Gemini
-    const outfitIds = result.outfit_ids || [];
-    const recommendedClothes = clothes.filter(c => outfitIds.includes(c.id));
-
-    res.json({
-      reply: result.reply,
-      outfit: recommendedClothes
-    });
-
-  } catch (err) {
-    console.error('Error en el asistente de Gemini:', err);
-    res.status(500).json({ error: 'Error al procesar la sugerencia con Gemini: ' + err.message });
   }
 });
 

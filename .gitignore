@@ -2,3 +2,7 @@ node_modules/
 dist/
 closet.db
 .DS_Store
+.env
+virtual-closet-supabase - copia/
+virtual-closet-supabase - copia.zip
+*.log

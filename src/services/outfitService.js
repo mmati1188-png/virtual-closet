@@ -14,9 +14,16 @@ export function recommendOutfit(clothes, occasion, weather, profile) {
   const { currentTemp, rainProbability, currentRain } = weather;
   const isRaining = currentRain > 0 || rainProbability > 50;
 
-  // 1. Filtrar solo prendas disponibles (limpias)
+  // 1. Filtrar solo prendas disponibles (limpias) y que correspondan al género del perfil
   // Excluimos explícitamente las sucias ('dirty') y prestadas ('lent')
-  const availableClothes = clothes.filter(c => c.status === 'clean');
+  let availableClothes = clothes.filter(c => c.status === 'clean');
+
+  // Filtrado por género
+  if (profile?.gender === 'Masculino') {
+    availableClothes = availableClothes.filter(c => !c.gender || c.gender === 'hombre' || c.gender === 'unisex');
+  } else if (profile?.gender === 'Femenino') {
+    availableClothes = availableClothes.filter(c => !c.gender || c.gender === 'mujer' || c.gender === 'unisex');
+  }
 
   if (availableClothes.length === 0) {
     return {

@@ -60,6 +60,15 @@ export default function App() {
   const [selectedColor, setSelectedColor] = useState('all');
   const [selectedStore, setSelectedStore] = useState('all');
   const [selectedStatus, setSelectedStatus] = useState('all');
+  const [selectedGender, setSelectedGender] = useState('all');
+
+  // Lista local para búsquedas de tags y subcategorías
+  const [closetItemsPool, setClosetItemsPool] = useState([]);
+  useEffect(() => {
+    import('./data/realClosetProducts.json').then(module => {
+      setClosetItemsPool(module.default || module);
+    });
+  }, []);
 
   // Agregar Prenda
   const [addTab, setAddTab] = useState('scan'); // scan, url, manual
@@ -83,6 +92,7 @@ export default function App() {
     color: '',
     price: '',
     style: 'Casual',
+    gender: 'unisex',
     image_url: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600',
     purchase_url: ''
   });
@@ -162,8 +172,8 @@ export default function App() {
 
   const translateCategory = (cat) => {
     const translation = {
-      'tops': 'Tops',
-      'bottoms': 'Bottoms',
+      'tops': 'Partes Superiores / Tops',
+      'bottoms': 'Partes Inferiores / Pantalones',
       'dresses': 'Vestidos',
       'jackets': 'Abrigos',
       'shoes': 'Zapatos',
@@ -247,6 +257,14 @@ export default function App() {
     // Filtro Estilo/Ocasión
     if (selectedStyle !== 'all' && item.style !== selectedStyle) return false;
 
+    // Filtro Género
+    if (selectedGender !== 'all') {
+      const itemGender = (item.gender || 'unisex').toLowerCase();
+      if (selectedGender === 'mujer' && itemGender === 'hombre') return false;
+      if (selectedGender === 'hombre' && itemGender === 'mujer') return false;
+      if (selectedGender === 'unisex' && itemGender !== 'unisex') return false;
+    }
+
     // Filtro de Texto (Buscador: nombre, marca, tienda, color o tags)
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
@@ -275,14 +293,7 @@ export default function App() {
     return true;
   });
 
-  // Lista local para búsquedas de tags y subcategorías
-  // Importamos y guardamos en una variable para evitar conflictos
-  const [closetItemsPool, setClosetItemsPool] = useState([]);
-  useEffect(() => {
-    import('./data/realClosetProducts.json').then(module => {
-      setClosetItemsPool(module.default || module);
-    });
-  }, []);
+  // Lista local para búsquedas de tags y subcategorías cargada al inicio
 
   // ==========================================
   // INTEGRACIÓN DEL ASISTENTE DE OUTFITS
@@ -325,32 +336,77 @@ export default function App() {
       }
 
       // 3. Fallback: Usar el Outfit Service en el cliente (motor inteligente)
-      // Buscamos detalles más ricos de cada prenda mapeándolo al pool estático
+      // Buscamos detalles más ricos de cada prenda mapeándolo al pool estático o infiriendo del nombre si es catálogo
       const enrichedClothes = clothes.map(c => {
         const poolItem = closetItemsPool.find(p => {
           const pNumId = parseInt(String(p.id).replace(/[^\d]/g, ''));
           return pNumId === c.id;
         });
-        const mapStyleToString = (styleVal) => {
-          if (!styleVal) return 'Casual';
-          const firstStyle = Array.isArray(styleVal) ? styleVal[0] : styleVal;
-          if (!firstStyle) return 'Casual';
-          const s = firstStyle.toLowerCase();
-          if (s === 'sporty' || s === 'deportivo') return 'Deportivo';
-          if (s === 'formal' || s === 'office' || s === 'elegant') return 'Formal';
-          if (s === 'chic' || s === 'trendy' || s === 'night out') return 'Eventos de Ocasión';
-          return 'Casual';
-        };
+
+        let subcategory = '';
+        let season = 'Todo el año';
+        let formalityLevel = 2;
+        let temperatureMin = 10;
+        let temperatureMax = 25;
+        let rainFriendly = false;
+        let tags = [];
+
+        let itemStyle = c.style || 'Casual';
+        const nameLower = (c.name || '').toLowerCase();
+
+        // Inferir formalidad y etiquetas
+        if (itemStyle === 'Formal') {
+          formalityLevel = 4;
+          tags.push('formal', 'trabajo', 'oficina');
+        } else if (itemStyle === 'Deportivo') {
+          formalityLevel = 1;
+          tags.push('deporte', 'ejercicio', 'gym');
+        } else if (itemStyle === 'Eventos de Ocasión') {
+          formalityLevel = 4;
+          tags.push('noche', 'fiesta', 'evento');
+        } else {
+          formalityLevel = 2;
+          tags.push('casual', 'cómodo');
+        }
+
+        if (nameLower.includes('lana') || nameLower.includes('abrigo') || nameLower.includes('parka') || nameLower.includes('polerón') || nameLower.includes('polar') || nameLower.includes('invierno') || nameLower.includes('chaleco')) {
+          temperatureMin = 0;
+          temperatureMax = 15;
+          season = 'Invierno';
+        } else if (nameLower.includes('corto') || nameLower.includes('vestido') || nameLower.includes('short') || nameLower.includes('falda') || nameLower.includes('polera') || nameLower.includes('verano') || nameLower.includes('sandalia') || nameLower.includes('tirantes')) {
+          temperatureMin = 18;
+          temperatureMax = 35;
+          season = 'Verano';
+        }
+
+        if (nameLower.includes('impermeable') || nameLower.includes('parka') || nameLower.includes('cortaviento') || nameLower.includes('bota')) {
+          rainFriendly = true;
+        }
+
+        // Subcategorías comunes para lógica fina
+        if (nameLower.includes('jean')) subcategory = 'Jeans';
+        else if (nameLower.includes('pantal')) subcategory = 'Pantalón';
+        else if (nameLower.includes('short')) subcategory = 'Shorts';
+        else if (nameLower.includes('falda')) subcategory = 'Falda';
+        else if (nameLower.includes('polera') || nameLower.includes('camiseta')) subcategory = 'Polera';
+        else if (nameLower.includes('camisa')) subcategory = 'Camisa';
+        else if (nameLower.includes('blusa')) subcategory = 'Blusa';
+        else if (nameLower.includes('sweater') || nameLower.includes('chaleco')) subcategory = 'Sweater';
+        else if (nameLower.includes('chaqueta')) subcategory = 'Chaqueta';
+        else if (nameLower.includes('abrigo')) subcategory = 'Abrigo';
+        else if (nameLower.includes('zapatilla')) subcategory = 'Zapatillas';
+        else if (nameLower.includes('bota')) subcategory = 'Botas';
+
         return {
           ...c,
-          subcategory: poolItem ? poolItem.subcategory : '',
-          season: poolItem ? poolItem.season : 'Todo el año',
-          style: c.style || (poolItem ? mapStyleToString(poolItem.style) : 'Casual'),
-          formalityLevel: poolItem ? poolItem.formalityLevel : 2,
-          temperatureMin: poolItem ? poolItem.temperatureMin : 10,
-          temperatureMax: poolItem ? poolItem.temperatureMax : 25,
-          rainFriendly: poolItem ? poolItem.rainFriendly : false,
-          tags: poolItem ? (poolItem.occasionTags || poolItem.tags || []) : []
+          subcategory: poolItem ? poolItem.subcategory : subcategory,
+          season: poolItem ? poolItem.season : season,
+          style: itemStyle,
+          formalityLevel: poolItem ? poolItem.formalityLevel : formalityLevel,
+          temperatureMin: poolItem ? poolItem.temperatureMin : temperatureMin,
+          temperatureMax: poolItem ? poolItem.temperatureMax : temperatureMax,
+          rainFriendly: poolItem ? poolItem.rainFriendly : rainFriendly,
+          tags: poolItem ? (poolItem.occasionTags || poolItem.tags || []) : tags
         };
       });
 
@@ -610,6 +666,10 @@ export default function App() {
       alert('El nombre y correo electrónico son obligatorios.');
       return;
     }
+    if (!gender || gender === 'Sin especificar' || gender === '') {
+      alert('Por favor, selecciona tu género (Femenino, Masculino o Ambos / Unisex) para adaptar las recomendaciones de tu clóset.');
+      return;
+    }
     // Validar formato de email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email.trim())) {
@@ -619,7 +679,7 @@ export default function App() {
 
     const updatedProfile = {
       name: name.trim(),
-      gender: gender || 'Sin especificar',
+      gender: gender,
       email: email.trim()
     };
 
@@ -846,6 +906,14 @@ export default function App() {
                   <option value="clean">Limpio</option>
                   <option value="dirty">En Lavadora</option>
                   <option value="lent">Prestado</option>
+                </select>
+              </div>
+              <div className="filter-group">
+                <select className="mac-select" value={selectedGender} onChange={(e) => setSelectedGender(e.target.value)}>
+                  <option value="all">Género: Todos</option>
+                  <option value="mujer">Género: Mujer</option>
+                  <option value="hombre">Género: Hombre</option>
+                  <option value="unisex">Género: Unisex</option>
                 </select>
               </div>
             </div>
@@ -1083,6 +1151,14 @@ export default function App() {
                           <label>Color Predominante</label>
                           <input type="text" value={confirmData.color} onChange={(e) => setConfirmData({ ...confirmData, color: e.target.value })} />
                         </div>
+                        <div className="form-group">
+                          <label>Género de la Prenda *</label>
+                          <select className="mac-select" value={confirmData.gender} onChange={(e) => setConfirmData({ ...confirmData, gender: e.target.value })}>
+                            <option value="unisex">Unisex</option>
+                            <option value="mujer">Mujer</option>
+                            <option value="hombre">Hombre</option>
+                          </select>
+                        </div>
                       </div>
                       
                       <div className="form-actions">
@@ -1159,7 +1235,20 @@ export default function App() {
                   <div className="recommendation-content">
                     <div className="recommendation-header">
                       <h3><Icon name="check-square" /> Outfit Recomendado</h3>
-                      <span className="badge-style">{outfitStyleBadge}</span>
+                      <div className="badge-row" style={{ display: 'flex', gap: '8px' }}>
+                        <span className="badge-style">{outfitStyleBadge}</span>
+                        {currentRecommendation && currentRecommendation.length > 0 && (
+                          <span className="badge-style" style={{ backgroundColor: '#007aff', color: 'white' }}>
+                            {(() => {
+                              const genders = currentRecommendation.map(i => i.gender || 'unisex');
+                              if (genders.every(g => g === 'hombre')) return 'Outfit Masculino';
+                              if (genders.every(g => g === 'mujer')) return 'Outfit Femenino';
+                              if (genders.some(g => g === 'hombre') && genders.some(g => g === 'mujer')) return 'Outfit Mixto';
+                              return 'Outfit Unisex';
+                            })()}
+                          </span>
+                        )}
+                      </div>
                     </div>
 
                     <div className="outfit-collage" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))' }}>
@@ -1267,9 +1356,10 @@ export default function App() {
                   value={profileInput.gender} 
                   onChange={(e) => setProfileInput({ ...profileInput, gender: e.target.value })}
                 >
-                  <option value="Sin especificar">Sin especificar / No Binario</option>
-                  <option value="Femenino">Femenino</option>
-                  <option value="Masculino">Masculino</option>
+                  <option value="">Selecciona tu género...</option>
+                  <option value="Femenino">Femenino (Ropa de Mujer)</option>
+                  <option value="Masculino">Masculino (Ropa de Hombre)</option>
+                  <option value="Ambos">Ambos / Unisex</option>
                 </select>
               </div>
 
